@@ -6,7 +6,7 @@
 	<li>3.完了</li>
 </ol>
 
-<%= form_for @reserve, method: :post, url: reserve_confirm_path do |form| %>
+<%= form_for @reserve, method: :post, url: reserves_confirm_path do |form| %>
 	<dl>
 		<dt>希望日</dt>
 		<dd><%= form.text_field :reserve_date %></dd>
